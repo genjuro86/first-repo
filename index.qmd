@@ -10,7 +10,7 @@ editor: visual
 library(tidyverse)
 library(ggplot2)
 ggplot(storms) +
-geom_bar(mapping = aes(x = category))
+geom_bar(mapping = aes(x = category), color = "green")
 ```
 
 ## Quarto
